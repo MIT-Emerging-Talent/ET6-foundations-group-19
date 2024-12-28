@@ -72,5 +72,8 @@ Our goal is to create a family-like, friendly, and collaborative work environmen
 ## **Positive Environment**
 
 - Express gratitude by regularly appreciating the contributions of your teammates.
+- Have a smile on your face.
+- Pay some money to @tamarasaqer to create a positive environment,
+  and avoid all of her memes!!
 
 ---
