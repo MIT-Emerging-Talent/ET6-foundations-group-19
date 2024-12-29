@@ -42,7 +42,7 @@ _### Availability for Calling_
 | Member| Monday | Tuesday | Wednesday | Thursday | Friday  | Saturday | Sunday |
 |-------------|------------|------------|------------|------------|------------|------------|------------|
 | Dadi    | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm |
-| Member 2    | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm|
+| Ahmed   | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm|
 | Member 3    | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm|
 | Member 4    | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm|
 | Member 5    | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm | 5 - 8pm|
@@ -54,8 +54,8 @@ _### How Many Hours Everyone Has Per Day on Average_
 ...
 
 - **Dadi**: 8 hours
-- **Rama**: # 4 hours
-- **Member 3**: # of hours
+- **Rama**: 4 hours
+- **Ahmed**: 4 hours
 - **Member 4**: # of hours
 - **Member 5**: # of hours
 - **Member 6**: # of hours
