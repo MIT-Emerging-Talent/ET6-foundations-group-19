@@ -51,7 +51,8 @@ Our goal is to create a family-like, friendly, and collaborative work environmen
 - Inclusivity: We create a collaborative
    atmosphere where every member feels valued, heard, and empowered to contribute.
 
-- Regular Updates: Share progress updates regularly to keep everyone informed and aligned.
+- Regular Updates: Share progress updates regularly
+to keep everyone informed and aligned.
 
 ---
 
@@ -60,7 +61,8 @@ Our goal is to create a family-like, friendly, and collaborative work environmen
 - Treat everyone with kindness and respect
 - Offer help proactively when someone is struggling with a task.
 - Recognize and appreciate the contributions and ideas shared by others.
-- Embrace and respect differences in culture, opinions, and work styles as strengths of the group.
+- Embrace and respect differences in culture, opinions,
+and work styles as strengths of the group.
 
 ---
 
@@ -75,6 +77,7 @@ Our goal is to create a family-like, friendly, and collaborative work environmen
 ## **Positive Environment**
 
 - Express gratitude by regularly appreciating the contributions of your teammates.
-- Everyone should feels safe to express thoughts, make mistakes, and learn without judgment.
+- Everyone should feels safe to express thoughts, make mistakes
+, and learn without judgment.
 
 ---
