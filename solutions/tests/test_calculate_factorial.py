@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-A test for module calculate_factorial
+A test for module calculate_factorial.
+
+Test categories:
+    - Standard cases: small positive numbers 
+    - Edge cases: 0, 1, large positive numbers
+    - Defensive tests: assertions, wrong input types
 
 Created on 4 1 2025
 
