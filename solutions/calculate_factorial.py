@@ -6,6 +6,8 @@ A module for calculating the factorial of a non-negative integer
 Created on 4 1 2025
 @author: Ahmed Hussein
 """
+
+
 def calculate_factorial(number: int) -> int:
     """Calculate the factorial of a positive number by calculating the product of all positive integers less than or equal to the number.
 
@@ -36,17 +38,17 @@ def calculate_factorial(number: int) -> int:
     """
 
     assert isinstance(number, int)
-    
+
     if number < 0:
         raise ValueError("The number should be greater than zero")
-    
-    if(number == 0):
+
+    if number == 0:
         return 1
-    
+
     factorial = 1
 
-    while(number > 0):
+    while number > 0:
         factorial = factorial * number
         number = number - 1
-    
+
     return factorial
