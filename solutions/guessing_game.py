@@ -2,6 +2,9 @@
 write a function that takes a random integer from the
 user (the player) and compare it to a randomly generated number inside
 the function that is bound by user lower and upper boundaries.
+
+@author: Mohammad Al Salloum.
+@date: 01/05/2025
 """
 
 import random
@@ -29,20 +32,15 @@ def guessing_game(lower_bound: int, upper_bound: int) -> int:
     >>> guessing_game(-3, 6)
         Try Again (if the user's guess did
                     not match the random int)
-
-
+    >>> guessing_game (1, 1)
+        You Won! (There is one option for the user to guess)
     """
-
-
-lower_bound = input("Enter the lower bound: ")
-lower_bound = int(lower_bound)
-upper_bound = input("Enter the upper bound: ")
-upper_bound = int(upper_bound)
-random_number = random.randint(lower_bound, upper_bound)
-guess = input(f"Guess a number between {lower_bound} and {upper_bound}: ")
-guess = int(guess)
-
-if random_number == guess:
-    print("You Won!")
-else:
-    print("Try Again")
+    assert isinstance(lower_bound, int), "first argument must be an int"
+    assert isinstance(upper_bound, int), "second argument must be an int"
+    random_number = random.randint(lower_bound, upper_bound)
+    guess = input(f"Guess a number between {lower_bound} and {upper_bound}: ")
+    guess = int(guess)
+    if random_number == guess:
+        print("You Won!")
+    else:
+        print("Try Again")
