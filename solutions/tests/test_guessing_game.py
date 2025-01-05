@@ -28,8 +28,15 @@ from ..guessing_game import guessing_game
 
 
 class TestGuessingGame(unittest.TestCase):
+    """
+    unittest used to test the function with different approaches to make sure
+    the expected behavior is met
+
+
+    """
+
     def test_input_types(self):
-        """hecks if the function raises an AssertionError for non-integer inputs"""
+        """checks if the function raises an AssertionError for non-integer inputs"""
         with self.assertRaises(AssertionError):
             guessing_game("a", 5)
         with self.assertRaises(AssertionError):
