@@ -53,6 +53,12 @@ class TestExtractIntegers(unittest.TestCase):
         """
         self.assertEqual(extract_integers("Ihave3apples"), [3])
 
+    def test_string_with_no_integers(self):
+        """
+        Checks if the function works with a string that contains no spaces in between.
+        """
+        self.assertEqual(extract_integers("I like apples"), [])
+
     def test_defensive_check_if_input_argument_is_string(self):
         """
         Ensures the function raises an error if the input argument is not a string.
