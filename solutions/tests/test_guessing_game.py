@@ -43,7 +43,7 @@ class TestGuessingGame(unittest.TestCase):
         with patch("builtins.print") as mocked_print:
             guessing_game(1, 5)
             mocked_print.assert_called_with("You Won!")
-            
+
     @patch("builtins.input", side_effect=[-3])
     @patch("random.randint", return_value=-3)
     def test_negative_boundary(self, mock_randint, mock_input):
