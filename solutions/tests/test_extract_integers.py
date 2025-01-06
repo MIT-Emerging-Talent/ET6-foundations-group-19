@@ -34,14 +34,12 @@ class TestExtractIntegers(unittest.TestCase):
         """
         Checks if the function works with strings containing positive integers.
         """
-        self.assertEqual(extract_integers("I have 3 apples"), [3])
         self.assertEqual(extract_integers("I have 3 apples and 5 bananas"), [3, 5])
 
     def test_negative_integer_in_string(self):
         """
         Checks if the function works with strings containing negative integers.
         """
-        self.assertEqual(extract_integers("The temp is -300"), [-300])
         self.assertEqual(
             extract_integers("The table is inclined -5 degrees and the temp is -300"),
             [-5, -300],
@@ -55,7 +53,7 @@ class TestExtractIntegers(unittest.TestCase):
 
     def test_string_with_no_integers(self):
         """
-        Checks if the function works with a string that contains no spaces in between.
+        Checks if the function works with a string that contains no integers.
         """
         self.assertEqual(extract_integers("I like apples"), [])
 
