@@ -31,8 +31,6 @@ class TestGuessingGame(unittest.TestCase):
     """
     unittest used to test the function with different approaches to make sure
     the expected behavior is met
-
-
     """
 
     def test_input_types(self):
