@@ -17,13 +17,13 @@ class TestMathSequences(unittest.TestCase):
         """Generate no row."""
         self.assertEqual(pascals_triangle(0), [])
 
-    def test_pascals_triangle(self):
+    def test_pascals_triangle5(self):
         """Generate five rows."""
         self.assertEqual(
             pascals_triangle(5), [[1], [1, 1], [1, 2, 1], [1, 3, 3, 1], [1, 4, 6, 4, 1]]
         )
 
-    def test_pascals_triangle(self):
+    def test_pascals_trianglen(self):
         """Handling a negative input."""
         with self.assertRaises(AssertionError):
             pascals_triangle(-3)
