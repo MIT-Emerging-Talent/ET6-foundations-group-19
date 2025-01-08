@@ -12,8 +12,6 @@ Created on Jan 3, 2025
 @author: Dadi Ishimwe
 """
 
-import math
-
 
 def pascals_triangle(rows: int) -> list[list[int]]:
     """Generates Pascal's Triangle up to a given number of rows.
