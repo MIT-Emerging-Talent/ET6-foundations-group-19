@@ -109,8 +109,9 @@ readable code.
   
 ---
 
-  - ## _Mahmoud Al Nouri_
+- ## _Mahmoud Al Nouri_
 
   - [ ] Goal 1: Get familiar with Git, GitHub and Version Controls
   - [ ] Goal 2: Enhance collabration and project management skills in IT Projects
   - [ ] Goal 3: Improve skills in Python and Python Libraries
+  
