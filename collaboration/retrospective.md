@@ -9,7 +9,6 @@
 ## Continue Doing
   1) Use the Project Management Board
   2) Document issues using the issues module
-  3) 
 
 ## Start Doing
   1) Scheduling periodic reviews of pull requests to ensure code quality and knowledge sharing.
