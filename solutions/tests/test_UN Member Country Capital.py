@@ -1,3 +1,4 @@
+
 """
 A module using Dictionary to provide the capital city for some UN Member Countries.
 
@@ -202,13 +203,36 @@ UN_COUNTRIES_AND_CAPITALS = {
     "Zimbabwe": "Harare"
 }
 
-def get_capital():
-    country = input("Enter the name of a UN member country: ").strip()
-    capital = UN_COUNTRIES_AND_CAPITALS.get(country)
-    if capital:
-        print(f"The capital city of {country} is {capital}.")
-    else:
-        print("Country not found in the United Nations member list. Please try again.")
+def get_capital(country):
+    """
+    Returns the capital city of a given country from the UN_COUNTRIES_AND_CAPITALS dictionary.
+    :param country: The name of a UN member country (string).
+    :return: The capital city (string) or None if the country is not in the dictionary.
+    """
+    return UN_COUNTRIES_AND_CAPITALS.get(country.strip())
+'
+# Unit tests
+import unittest
+
+class TestGetCapital(unittest.TestCase):
+
+    def test_valid_country(self):
+        self.assertEqual(get_capital("Afghanistan"), "Kabul")
+        self.assertEqual(get_capital("Zimbabwe"), "Harare")
+        self.assertEqual(get_capital("Albania"), "Tirana")
+
+    def test_invalid_country(self):
+        self.assertIsNone(get_capital("Atlantis"))
+        self.assertIsNone(get_capital("Wakanda"))
+
+    def test_case_insensitivity(self):
+        # Assuming the dictionary is case-sensitive and requires exact match
+        self.assertIsNone(get_capital("afghanistan"))  # Invalid as lowercase
+        self.assertEqual(get_capital("Afghanistan"), "Kabul")  # Valid case
+
+    def test_strip_whitespace(self):
+        self.assertEqual(get_capital(" Afghanistan "), "Kabul")
+        self.assertEqual(get_capital("\tZimbabwe\n"), "Harare")
 
 if __name__ == "__main__":
-    get_capital()
+    unittest.main()
