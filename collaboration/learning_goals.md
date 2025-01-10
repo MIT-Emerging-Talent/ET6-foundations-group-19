@@ -106,3 +106,9 @@ readable code.
         to work collaboratively on coding projects.
   - [ ] Goal 3: Engage with experienced professionals in the field to gain insights,
          refine skills, and adopt best practices in coding and collaboration.
+
+  - ## _Mahmoud Al Nouri_
+
+  - [ ] Goal 1: Get familiar with Git, GitHub and Version Controls
+  - [ ] Goal 2: Enhance collabration and project management skills in IT Projects
+  - [ ] Goal 3: Improve skills in Python and Python Libraries
