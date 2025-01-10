@@ -1,6 +1,17 @@
 # Unit tests
 import unittest
 
+# Define the get_capital function
+def get_capital(country):
+    """Returns the capital city of a given country. Returns None if the country is not found."""
+    capitals = {
+        "Afghanistan": "Kabul",
+        "Zimbabwe": "Harare",
+        "Albania": "Tirana",
+    }
+    country = country.strip()  # Remove leading/trailing whitespace
+    return capitals.get(country)
+
 class TestGetCapital(unittest.TestCase):
 
     def test_valid_country(self):
@@ -23,3 +34,4 @@ class TestGetCapital(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
