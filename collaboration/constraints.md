@@ -110,6 +110,6 @@ limits my availability time.
 ### Mahmoud Alnouri
 
 - Access to Internet and electricity can be very limited.
-- I dont have a computer, I borrow it sometimes, I have an Android Tablet/Phone
+- I dont have a computer, I borrow it sometimes, I have an Android Tablet/Phone.
 
   ---
