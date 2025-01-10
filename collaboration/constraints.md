@@ -106,3 +106,12 @@ limits my availability time.
   this makes working impossible as power may take days to weeks to return.
   
   ---
+
+### Mahmoud Alnouri
+
+- Limited Access to Internet and electricity, sometimes only for a few hours.  
+- I don't have continous access to a computer. Sometimes I use a tablet, phone
+  or whatever is available
+
+
+  ---
