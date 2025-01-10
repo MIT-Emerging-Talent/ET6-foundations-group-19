@@ -106,6 +106,8 @@ readable code.
         to work collaboratively on coding projects.
   - [ ] Goal 3: Engage with experienced professionals in the field to gain insights,
          refine skills, and adopt best practices in coding and collaboration.
+  
+---
 
   - ## _Mahmoud Al Nouri_
 
