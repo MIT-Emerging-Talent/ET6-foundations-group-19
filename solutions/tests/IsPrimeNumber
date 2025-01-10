@@ -1,0 +1,41 @@
+"""
+a module that determine if a provided integer between 0 and 1 Billion is a prime number.
+
+@author: Mahmoud Alnouri.
+@date: 09/Jan/2025
+
+"""
+
+def is_prime(number):
+    """Check if a number is a prime number."""
+    if number <= 1:
+        return False  # Numbers <= 1 are not prime
+    if number <= 3:
+        return True  # 2 and 3 are prime numbers
+    if number % 2 == 0 or number % 3 == 0:
+        return False  # Exclude multiples of 2 and 3
+
+    # Check divisors from 5 to sqrt(number)
+    i = 5
+    while i * i <= number:
+        if number % i == 0 or number % (i + 2) == 0:
+            return False
+        i += 6
+
+    return True
+
+def main():
+    try:
+        number = int(input("Enter a number between 0 and 1 billion: "))
+        if number < 0 or number > 1_000_000_000:
+            print("Please enter a number in the range 0 to 1 billion.")
+        else:
+            if is_prime(number):
+                print(f"{number} is a prime number.")
+            else:
+                print(f"{number} is not a prime number.")
+    except ValueError:
+        print("Invalid input. Please enter an integer.")
+
+if __name__ == "__main__":
+    main()
