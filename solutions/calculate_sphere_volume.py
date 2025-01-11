@@ -43,7 +43,7 @@ def calculate_sphere_volume(radius: float) -> float:
         raise ValueError("Radius cannot be negative.")
 
     # Formula for the volume of a sphere: (4/3) * π * r^3
-    return (4/3) * pi * (radius ** 3)
+    return (4 / 3) * pi * (radius**3)
 
 
 if __name__ == "__main__":
