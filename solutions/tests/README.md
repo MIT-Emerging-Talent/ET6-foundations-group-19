@@ -2,7 +2,8 @@
 
 ## Welcome to the Tests! 🧪
 
-Welcome to the test suite where every solution meets its quality check! This directory houses 
+Welcome to the test suite where every solution meets its quality check!
+This directory houses
 our test collection, ensuring code excellence. Let the testing begin! 💡
 
 ---
@@ -104,7 +105,8 @@ Let's build an unbreakable test suite together! 💪
 
 ## License ⚖️
 
-This test suite is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+This test suite is licensed under the MIT License. See the [LICENSE](./LICENSE)
+file for details.
 
 ## Happy Testing! 🎉
 
