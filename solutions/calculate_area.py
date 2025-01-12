@@ -2,8 +2,8 @@
 This module provides a function to calculate the area of a square.
 
 The function takes the length of a side as input and returns the area.
-Created on XX-XX-XX
-Author: 
+Created on 12 Jan 2025
+Author: Ahmed Khalifa
 """
 
 def calculate_square_area(side_length: float) -> float:
