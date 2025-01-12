@@ -2,7 +2,10 @@
 
 ## 🌟 **Welcome to the PnP Tests** 🧪
 
-Welcome to the **PnP Tests Table** – where every solution meets its quality check! This directory houses our comprehensive test suite, ensuring every piece of code meets our high standards. Whether you're verifying your solution or adding new tests, you're helping maintain code excellence. Let the testing begin! 💡
+Welcome to the **PnP Tests Table** – where every solution meets its quality check! This directory 
+houses our comprehensive test suite, ensuring every piece of code meets our high standards. Whether 
+you're verifying your solution or adding new tests, you're helping maintain code excellence. Let 
+the testing begin! 💡
 
 ---
 
@@ -10,24 +13,42 @@ Welcome to the **PnP Tests Table** – where every solution meets its quality ch
 
 Every test is a guardian of quality. Here's your testing roadmap:
 
-| 🔢 **#** | 🏷️ **Test File** | ✍️ **Author** | 🛠️ **Tests Function** |
-|----------|-------------------|---------------|---------------------|
-| 1 | [test_calculate_cube_volume.py](./test_calculate_cube_volume.py) | Mahmoud Alnouri | Validates cube volume calculations 📦 |
-| 2 | [test_calculate_factorial.py](./test_calculate_factorial.py) | Ahmed Hussein | Ensures accurate factorial computations 🔢 |
-| 3 | [test_calculate_sphere_volume.py](./test_calculate_sphere_volume.py) | Mahmoud Alnouri | Verifies sphere volume calculations 🌐 |
-| 4 | [test_celsius_to_fahrenheit.py](./test_celsius_to_fahrenheit.py) | Rama Arafeh | Checks temperature conversion accuracy 🌡️ |
-| 5 | [test_convert_to_uppercase.py](./test_convert_to_uppercase.py) | Tamara Saqer | Tests string case conversion 🔊 |
-| 6 | [test_extract_integers.py](./test_extract_integers.py) | Mohammad Al Salloum | Validates integer extraction functionality 🔍 |
-| 7 | [test_guessing_game.py](./test_guessing_game.py) | Mohammad Al Salloum | Tests game logic and user interaction 🎲 |
-| 8 | [test_int_to_binary.py](./test_int_to_binary.py) | Dadi Ishimwe | Verifies binary conversion accuracy 💻 |
-| 9 | [test_is_odd_or_even.py](./test_is_odd_or_even.py) | Tamara Saqer | Ensures correct parity checking ⚖️ |
-| 10 | [test_is_palindrome.py](./test_is_palindrome.py) | Dadi Ishimwe | Validates palindrome detection 🔄 |
-| 11 | [test_multiplication.py](./test_multiplication.py) | Rama Arafeh | Tests multiplication operations ➕ |
-| 12 | [test_password_generator.py](./test_password_generator.py) | Mukuna Kabeya | Checks password generation requirements 🔐 |
-| 13 | [test_print_triangle_shape.py](./test_print_triangle_shape.py) | Mukuna Kabeya | Validates triangle pattern output 🎨 |
-| 14 | [test_reversed_positive_number.py](./test_reversed_positive_number.py) | Raed Eleyan | Tests number reversal functionality 🔄 |
-| 15 | [test_sum_digits_of_positive_number.py](./test_sum_digits_of_positive_number.py) | Raed Eleyan | Verifies digit sum calculations 🧙‍♂️ |
-| 16 | [test_text_to_morse.py](./test_text_to_morse.py) | Ahmed Hussein | Validates Morse code conversion 📻 |
+| 🔢 **#** | 🏷️ **Test File** | ✍️ **Author** |
+|----------|-------------------|---------------|
+| 1 | [test_calculate_cube_volume.py](./test_calculate_cube_volume.py) | Mahmoud Alnouri |
+| 2 | [test_calculate_factorial.py](./test_calculate_factorial.py) | Ahmed Hussein |
+| 3 | [test_calculate_sphere_volume.py](./test_calculate_sphere_volume.py) | Mahmoud Alnouri |
+| 4 | [test_celsius_to_fahrenheit.py](./test_celsius_to_fahrenheit.py) | Rama Arafeh |
+| 5 | [test_convert_to_uppercase.py](./test_convert_to_uppercase.py) | Tamara Saqer |
+| 6 | [test_extract_integers.py](./test_extract_integers.py) | Mohammad Al Salloum |
+| 7 | [test_guessing_game.py](./test_guessing_game.py) | Mohammad Al Salloum |
+| 8 | [test_int_to_binary.py](./test_int_to_binary.py) | Dadi Ishimwe |
+| 9 | [test_is_odd_or_even.py](./test_is_odd_or_even.py) | Tamara Saqer |
+| 10 | [test_is_palindrome.py](./test_is_palindrome.py) | Dadi Ishimwe |
+| 11 | [test_multiplication.py](./test_multiplication.py) | Rama Arafeh |
+| 12 | [test_password_generator.py](./test_password_generator.py) | Mukuna Kabeya |
+| 13 | [test_print_triangle_shape.py](./test_print_triangle_shape.py) | Mukuna Kabeya |
+| 14 | [test_reversed_positive_number.py](./test_reversed_positive_number.py) | Raed Eleyan |
+| 15 | [test_sum_digits_of_positive_number.py](./test_sum_digits_of_positive_number.py) | Raed Eleyan |
+| 16 | [test_text_to_morse.py](./test_text_to_morse.py) | Ahmed Hussein |
+
+**Test Descriptions:**
+1. 📦 Validates cube volume calculations
+2. 🔢 Ensures accurate factorial computations 
+3. 🌐 Verifies sphere volume calculations
+4. 🌡️ Checks temperature conversion accuracy
+5. 🔊 Tests string case conversion
+6. 🔍 Validates integer extraction functionality
+7. 🎲 Tests game logic and user interaction
+8. 💻 Verifies binary conversion accuracy
+9. ⚖️ Ensures correct parity checking
+10. 🔄 Validates palindrome detection
+11. ➕ Tests multiplication operations
+12. 🔐 Checks password generation requirements
+13. 🎨 Validates triangle pattern output
+14. 🔄 Tests number reversal functionality
+15. 🧙‍♂️ Verifies digit sum calculations
+16. 📻 Validates Morse code conversion
 
 ---
 
@@ -50,10 +71,10 @@ python -m unittest discover -v
 
 ## 🌟 **Why Our Tests Rock**
 
-- 🎯 **Comprehensive Coverage:** Each test thoroughly validates its corresponding solution
+- 🎯 **Comprehensive Coverage:** Each test thoroughly validates its solution
 - ⚡ **Quick Feedback:** Fast execution to keep development smooth
 - 🛡️ **Edge Cases:** We test the boundaries to ensure robust solutions
-- 📚 **Clear Documentation:** Each test file includes usage examples and expectations
+- 📚 **Clear Documentation:** Each test includes examples and expectations
 
 ---
 
