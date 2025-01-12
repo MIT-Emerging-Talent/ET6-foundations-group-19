@@ -6,6 +6,7 @@ Created on 12 Jan 2025
 Author: Ahmed Khalifa
 """
 
+
 def calculate_square_area(side_length: float) -> float:
     """
     Calculate the area of a square given the length of its side.
@@ -26,11 +27,12 @@ def calculate_square_area(side_length: float) -> float:
         6.25
         >>> calculate_square_area(30)
         900.0
-       
+
     """
     # Defensive assertion
-    assert isinstance(side_length, (int, float)) or side_length <= 0:
+    assert isinstance(side_length, (int, float))
+    if side_length <= 0:
         raise ValueError("side_length must be a positive number.")
 
     # Calculate and return the area
-    return side_length ** 2
+    return side_length**2

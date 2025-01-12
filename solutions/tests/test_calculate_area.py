@@ -3,14 +3,15 @@ This module contains unit tests for the calculate_square_area function.
 
 The tests cover normal cases, boundary cases, and defensive assertions.
 
-Created on : XX - XX - XX
-Author : 
+Created on : 15 Jan 2025
+Author :Ahmed khalifa
 """
 
 import unittest
 from ..calculate_square_area import calculate_square_area
 
-class TestCalculateSquareArea:
+
+class TestCalculateSquareArea(unittest.TestCase):
     """
     A collection of unit tests for the calculate_square_area function.
     """
