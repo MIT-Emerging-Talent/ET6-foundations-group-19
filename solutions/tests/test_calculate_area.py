@@ -28,6 +28,12 @@ class TestCalculateSquareArea(unittest.TestCase):
         """
         self.assertEqual(calculate_square_area(2.5), 6.25)
 
+    def test_very_small_float_side(self):
+        """
+        Test the function with a very small float side length.
+        """
+        self.assertEqual(calculate_square_area(0.00000005), 0.0000000000000025)
+    
     def test_large_side(self):
         """
         Test the function with a very large side length.
@@ -55,5 +61,5 @@ class TestCalculateSquareArea(unittest.TestCase):
         Test the function with a non-numeric side length.
         This should raise a ValueError.
         """
-        with pytest.raises(ValueError):
+        with self.assertRaises(ValueError):
             calculate_square_area("invalid")
