@@ -35,7 +35,7 @@ class TestCalculateSquareArea(unittest.TestCase):
         Test the function with a very small float side length.
         """
         self.assertEqual(calculate_square_area(0.00000005), 2.4999999999999996e-15)
-    
+
     def test_large_side(self):
         """
         Test the function with a very large side length.
