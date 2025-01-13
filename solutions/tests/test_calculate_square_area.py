@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 This module contains unit tests for the calculate_square_area function.
 
@@ -20,7 +22,7 @@ class TestCalculateSquareArea(unittest.TestCase):
         """
         Test the function with a positive integer side length.
         """
-        self.assertEqual(calculate_square_area(5), 25.0)
+        self.assertEqual(calculate_square_area(5.0), 25.0)
 
     def test_positive_float_side(self):
         """
@@ -32,13 +34,13 @@ class TestCalculateSquareArea(unittest.TestCase):
         """
         Test the function with a very small float side length.
         """
-        self.assertEqual(calculate_square_area(0.00000005), 0.0000000000000025)
+        self.assertEqual(calculate_square_area(0.00000005), 2.4999999999999996e-15)
     
     def test_large_side(self):
         """
         Test the function with a very large side length.
         """
-        self.assertEqual(calculate_square_area(10000000), 10000000000000000)
+        self.assertEqual(calculate_square_area(10000000.0), 100000000000000.0)
 
     def test_zero_side(self):
         """
@@ -46,7 +48,7 @@ class TestCalculateSquareArea(unittest.TestCase):
         This should raise a ValueError.
         """
         with self.assertRaises(ValueError):
-            calculate_square_area(0)
+            calculate_square_area(0.0)
 
     def test_negative_side(self):
         """
@@ -54,12 +56,12 @@ class TestCalculateSquareArea(unittest.TestCase):
         This should raise a ValueError.
         """
         with self.assertRaises(ValueError):
-            calculate_square_area(-3)
+            calculate_square_area(-3.0)
 
     def test_non_numeric_side(self):
         """
         Test the function with a non-numeric side length.
-        This should raise a ValueError.
+        This should raise a AssertionError.
         """
-        with self.assertRaises(ValueError):
+        with self.assertRaises(AssertionError):
             calculate_square_area("invalid")

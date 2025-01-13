@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 This module provides a function to calculate the area of a square.
 
@@ -30,7 +32,8 @@ def calculate_square_area(side_length: float) -> float:
 
     """
     # Defensive assertion
-    assert isinstance(side_length, (int, float))
+    assert isinstance(side_length, float)
+
     if side_length <= 0:
         raise ValueError("side_length must be a positive number.")
 
